@@ -1,5 +1,48 @@
 
 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px;
+    margin-bottom: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
 .traffic-light {
     width: 100px;
     height: 300px;
@@ -12,6 +55,7 @@
     padding: 0.8rem;
     border-radius: 20px;
     box-shadow: 2px 4px 6px;
+    margin: 0 auto;
 }
 
 .color {
