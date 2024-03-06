@@ -1,0 +1,32 @@
+
+
+.traffic-light {
+    width: 100px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0.8rem;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px;
+}
+
+.color {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#yellow {
+    background-color: hsl(60, 100%, 50%);
+}
+
+#green {
+    background-color: hsl(120, 100%, 50%);
